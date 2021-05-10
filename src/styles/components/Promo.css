@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+.promo1,
+.promo2 {
+  background: linear-gradient(180deg, #0082f1 27.51%, #1e284a 100%);
+  height: 560px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.promo {
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.promo1 {
+  padding-left: 250px;
+  padding-right: 0;
+}
+
+.promo2 {
+  padding-left: 0;
+  padding-right: 250px;
+  height: 500px;
+}
+
+.promo2__left {
+  position: relative;
+}
+
+.promo2__left img {
+  position: absolute;
+  bottom: -8px;
+}
+
+.promo1__left,
+.promo2__right {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+.promo h1 {
+  font-family: 'Roboto', sans-serif;
+    font-style: normal;
+  font-weight: 900;
+  font-size: 67px;
+  line-height: 79px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  color: #ffffff;
+}
+
+.promo p {
+  font-family: 'Roboto', sans-serif;
+    font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+
+  text-align: center;
+
+  color: #ffffff;
+  margin: 0;
+}
+
+
+/*NHL promo section*/
+.promo1__right #nhlpromo1{
+  top:-20px;
+  width: 680px;
+}
+.promo2__left #nhlpromo2{
+  width: 680px;
+  bottom:-0px
+}
+/*--------------------------------*/
+
+
+/*freefire promo section*/
+.promo2__left #freefirepromo2{
+  width:450px;left: 150px;
+}
+
+.promo1__right #freefirepromo1{
+  width:500px;
+  margin-right: 130px;
+}
+/*--------------------------------*/
+
+/*cod promo section*/
+.promo1__left {
+  position: relative;
+}
+.promo1__right #codpromo1{
+  position: relative;
+  width:470px;
+  margin-right: 100px;
+  bottom:-75px;
+  right:100px
+}
+#codpromo2{
+  left: 50px;
+  top: 30px;
+}
+/*--------------------------------*/
+
+/*Fifa promo section*/
+.promo1__left {
+  position: relative;
+}
+
+.promo1__right #fifapromo1{
+width: 620px;
+padding-top:140px;
+padding-right: 20px}
+
+.promo2__left #fifapromo2{
+  width: 540px;
+  left: 150px;
+  }
